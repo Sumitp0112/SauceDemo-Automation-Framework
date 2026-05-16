@@ -78,7 +78,6 @@ The framework automates major modules of the SauceDemo application including:
 
 ## Project Structure
 
-```text
 src/main/java
     com.sauce.base
     com.sauce.pages
@@ -86,3 +85,58 @@ src/main/java
 
 src/test/java
     com.sauce.tests
+
+How To Run Project
+Clone Repository
+git clone https://github.com/Sumitp0112/SauceDemo-Automation-Framework.git
+Open Project
+Open Eclipse
+Import Maven Project
+Run Tests
+
+Run using:
+
+testng.xml
+
+Right Click:
+
+Run As → TestNG Suite
+Reports
+
+After execution:
+
+test-output
+
+Contains:
+
+ExtentReport.html
+TestNG Reports
+Author
+
+Sumit Patil
+
+
+---
+
+# 2. Upload Test Cases + Bug Report 📄
+
+Add:
+- Excel bug report
+- Excel test cases
+
+Into GitHub repository OR Google Drive.
+
+---
+
+# 3. Recommended Final Repository Structure 💼
+
+SauceDemo-Automation-Framework
+│
+├── src
+├── screenshots
+├── test-output
+├── BugReport.xlsx
+├── TestCases.xlsx
+├── pom.xml
+├── testng.xml
+├── README.md
