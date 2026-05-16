@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-16T14:22:05 IST" name="Default suite" finished-at="2026-05-16T14:32:50 IST" duration-ms="645526">
+    <groups>
+    </groups>
+    <test started-at="2026-05-16T14:22:05 IST" name="Default test" finished-at="2026-05-16T14:32:50 IST" duration-ms="645526">
+      <class name="com.sauce.tests.LoginTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:22:04 IST" name="setupReport" finished-at="2026-05-16T14:22:05 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:22:05 IST" name="setup" finished-at="2026-05-16T14:23:16 IST" duration-ms="70723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginPageLoadsSuccessfully()[pri:1, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:23:16 IST" name="verifyLoginPageLoadsSuccessfully" finished-at="2026-05-16T14:23:17 IST" duration-ms="1278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageLoadsSuccessfully -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:23:17 IST" name="tearDown" finished-at="2026-05-16T14:23:39 IST" duration-ms="22070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:23:39 IST" name="getResult" finished-at="2026-05-16T14:23:39 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginPageLoadsSuccessfully status=SUCCESS method=LoginTest.verifyLoginPageLoadsSuccessfully()[pri:1, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:23:39 IST" name="setup" finished-at="2026-05-16T14:24:40 IST" duration-ms="60901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyValidLogin()[pri:2, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:24:40 IST" name="verifyValidLogin" finished-at="2026-05-16T14:24:49 IST" duration-ms="8758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:24:49 IST" name="tearDown" finished-at="2026-05-16T14:24:58 IST" duration-ms="8747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:24:58 IST" name="getResult" finished-at="2026-05-16T14:24:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidLogin status=SUCCESS method=LoginTest.verifyValidLogin()[pri:2, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:24:58 IST" name="setup" finished-at="2026-05-16T14:26:18 IST" duration-ms="79794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidCredentials()[pri:3, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:26:18 IST" name="verifyInvalidCredentials" finished-at="2026-05-16T14:26:18 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:26:18 IST" name="tearDown" finished-at="2026-05-16T14:26:19 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:26:19 IST" name="getResult" finished-at="2026-05-16T14:26:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidCredentials status=SUCCESS method=LoginTest.verifyInvalidCredentials()[pri:3, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:26:19 IST" name="setup" finished-at="2026-05-16T14:27:02 IST" duration-ms="42753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidPassword()[pri:4, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:02 IST" name="verifyInvalidPassword" finished-at="2026-05-16T14:27:02 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:02 IST" name="tearDown" finished-at="2026-05-16T14:27:04 IST" duration-ms="1912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:04 IST" name="getResult" finished-at="2026-05-16T14:27:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidPassword status=SUCCESS method=LoginTest.verifyInvalidPassword()[pri:4, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:04 IST" name="setup" finished-at="2026-05-16T14:27:31 IST" duration-ms="27294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyInvalidUsername()[pri:5, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:31 IST" name="verifyInvalidUsername" finished-at="2026-05-16T14:27:35 IST" duration-ms="3142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:35 IST" name="tearDown" finished-at="2026-05-16T14:27:36 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:36 IST" name="getResult" finished-at="2026-05-16T14:27:36 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidUsername status=SUCCESS method=LoginTest.verifyInvalidUsername()[pri:5, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:27:36 IST" name="setup" finished-at="2026-05-16T14:28:37 IST" duration-ms="61720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithEmptyFields()[pri:6, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:28:37 IST" name="verifyLoginWithEmptyFields" finished-at="2026-05-16T14:28:39 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithEmptyFields -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:28:39 IST" name="tearDown" finished-at="2026-05-16T14:28:48 IST" duration-ms="9740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:28:48 IST" name="getResult" finished-at="2026-05-16T14:28:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithEmptyFields status=SUCCESS method=LoginTest.verifyLoginWithEmptyFields()[pri:6, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:28:48 IST" name="setup" finished-at="2026-05-16T14:29:24 IST" duration-ms="35899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPasswordFieldMasked()[pri:7, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:24 IST" name="verifyPasswordFieldMasked" finished-at="2026-05-16T14:29:26 IST" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordFieldMasked -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:26 IST" name="tearDown" finished-at="2026-05-16T14:29:37 IST" duration-ms="10783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:37 IST" name="getResult" finished-at="2026-05-16T14:29:37 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPasswordFieldMasked status=SUCCESS method=LoginTest.verifyPasswordFieldMasked()[pri:7, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:37 IST" name="setup" finished-at="2026-05-16T14:29:50 IST" duration-ms="13226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTextboxFunctionality()[pri:8, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:50 IST" name="verifyTextboxFunctionality" finished-at="2026-05-16T14:29:50 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextboxFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:50 IST" name="tearDown" finished-at="2026-05-16T14:29:52 IST" duration-ms="1596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:52 IST" name="getResult" finished-at="2026-05-16T14:29:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTextboxFunctionality status=SUCCESS method=LoginTest.verifyTextboxFunctionality()[pri:8, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:29:52 IST" name="setup" finished-at="2026-05-16T14:30:08 IST" duration-ms="15693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmptyUsername()[pri:9, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:30:08 IST" name="verifyEmptyUsername" finished-at="2026-05-16T14:30:10 IST" duration-ms="1890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyUsername -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:30:10 IST" name="tearDown" finished-at="2026-05-16T14:30:10 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:30:10 IST" name="getResult" finished-at="2026-05-16T14:30:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyUsername status=SUCCESS method=LoginTest.verifyEmptyUsername()[pri:9, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:30:10 IST" name="setup" finished-at="2026-05-16T14:30:36 IST" duration-ms="26005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyEmptyPassword()[pri:10, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:30:36 IST" name="verifyEmptyPassword" finished-at="2026-05-16T14:31:11 IST" duration-ms="35603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmptyPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:11 IST" name="tearDown" finished-at="2026-05-16T14:31:12 IST" duration-ms="989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:12 IST" name="getResult" finished-at="2026-05-16T14:31:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmptyPassword status=SUCCESS method=LoginTest.verifyEmptyPassword()[pri:10, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:12 IST" name="setup" finished-at="2026-05-16T14:31:39 IST" duration-ms="27028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLockedUserLogin()[pri:11, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:39 IST" name="verifyLockedUserLogin" finished-at="2026-05-16T14:31:42 IST" duration-ms="2577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLockedUserLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:42 IST" name="tearDown" finished-at="2026-05-16T14:31:43 IST" duration-ms="850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:43 IST" name="getResult" finished-at="2026-05-16T14:31:43 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLockedUserLogin status=SUCCESS method=LoginTest.verifyLockedUserLogin()[pri:11, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:43 IST" name="setup" finished-at="2026-05-16T14:31:58 IST" duration-ms="14721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginUsingEnterKey()[pri:12, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:31:58 IST" name="verifyLoginUsingEnterKey" finished-at="2026-05-16T14:32:00 IST" duration-ms="2615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginUsingEnterKey -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:00 IST" name="tearDown" finished-at="2026-05-16T14:32:01 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:01 IST" name="getResult" finished-at="2026-05-16T14:32:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginUsingEnterKey status=SUCCESS method=LoginTest.verifyLoginUsingEnterKey()[pri:12, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:01 IST" name="setup" finished-at="2026-05-16T14:32:14 IST" duration-ms="13647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithSpecialCharacters()[pri:13, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:14 IST" name="verifyLoginWithSpecialCharacters" finished-at="2026-05-16T14:32:16 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithSpecialCharacters -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:16 IST" name="tearDown" finished-at="2026-05-16T14:32:17 IST" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:17 IST" name="getResult" finished-at="2026-05-16T14:32:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithSpecialCharacters status=SUCCESS method=LoginTest.verifyLoginWithSpecialCharacters()[pri:13, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:17 IST" name="setup" finished-at="2026-05-16T14:32:44 IST" duration-ms="27183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginWithSQLInjection()[pri:14, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:44 IST" name="verifyLoginWithSQLInjection" finished-at="2026-05-16T14:32:48 IST" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithSQLInjection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:48 IST" name="tearDown" finished-at="2026-05-16T14:32:50 IST" duration-ms="2286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:50 IST" name="getResult" finished-at="2026-05-16T14:32:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginWithSQLInjection status=SUCCESS method=LoginTest.verifyLoginWithSQLInjection()[pri:14, instance:com.sauce.tests.LoginTest@38afe297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.sauce.tests.LoginTest@38afe297]" started-at="2026-05-16T14:32:51 IST" name="tearDownReport" finished-at="2026-05-16T14:32:52 IST" duration-ms="1153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.sauce.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

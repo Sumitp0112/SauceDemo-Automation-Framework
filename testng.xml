@@ -1,0 +1,28 @@
+
+<suite name="SauceDemoSuite">
+
+	<test name="LoginTests">
+		<classes>
+			<class name="com.sauce.tests.LoginTest"/>
+		</classes>
+	</test>
+
+	<test name="ProductTests">
+		<classes>
+			<class name="com.sauce.tests.ProductTest"/>
+		</classes>
+	</test>
+
+	<test name="CartTests">
+		<classes>
+			<class name="com.sauce.tests.CartTest"/>
+		</classes>
+	</test>
+
+	<test name="CheckoutTests">
+		<classes>
+			<class name="com.sauce.tests.CheckoutTest"/>
+		</classes>
+	</test>
+
+</suite>
