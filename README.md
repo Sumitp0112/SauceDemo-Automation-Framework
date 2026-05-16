@@ -114,29 +114,3 @@ TestNG Reports
 Author
 
 Sumit Patil
-
-
----
-
-# 2. Upload Test Cases + Bug Report 📄
-
-Add:
-- Excel bug report
-- Excel test cases
-
-Into GitHub repository OR Google Drive.
-
----
-
-# 3. Recommended Final Repository Structure 💼
-
-SauceDemo-Automation-Framework
-│
-├── src
-├── screenshots
-├── test-output
-├── BugReport.xlsx
-├── TestCases.xlsx
-├── pom.xml
-├── testng.xml
-├── README.md
